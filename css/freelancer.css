@@ -69,7 +69,12 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: url(/img/backgroundImage.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:20%;
+  
   color: white;
 }
 header .container {
@@ -502,4 +507,14 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: lightcyan;
+    text-align: center;
+    padding: 25px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
