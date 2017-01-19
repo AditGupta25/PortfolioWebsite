@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -58,6 +59,12 @@
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="/resources.html">Resources</a>
+                    </li>
+                    <li >
+                        <a href="/blog.html">Blog</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -70,7 +77,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/profile.jpg" style="height:300px; width:300px;" alt="">
+                    <img class="img-responsive img-circle" id="timedPopup" src="img/profile.jpg" style="height:300px; width:300px;" alt="">
                     <div class="intro-text">
                         <span class="name">Adit Gupta</span>
                         <hr class="star-light">
@@ -783,6 +790,7 @@
     </div>
 
 
+     
      <!-- YHacks -->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -881,7 +889,7 @@
                             <h2>Philly Codefest, Philadelphia</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/portfolioPhillyCodefest2.png" class="img-responsive img-centered" alt="">
-                            <p>Detailed Description Coming Soon!</p>
+                            <p>Philly Codefest is a hackathon, hosted at Drexel Uiversity, Philadelphia. Philly Cofefest is Drexel University's largest hackathon with over 500 participants. As one of the head organizers of Philly Codefest I have helped connect many enthusiastic students and professionals with a safe venue to ideate and innovate with some of the most advanced technologies available.  </p>
                              <ul class="list-inline item-details">
                                 <li>Video:
                                     <strong><a href="https://youtu.be/TBNwBNJHOGc"; target="_blank";>YouTube</a>
@@ -998,7 +1006,7 @@
                             <h2>RA at International House Philadelphia</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/portfolioIHP.png" class="img-responsive img-centered" alt="">
-                            <p>Detailed Description Coming Soon!</p>
+                            <p>The International House Philadelphia is America's oldest and most renouned international house, for scholars, diplomats and professionals from more than 150 countries the world. As a Residential Advisor at IHP, I have been given the oportunity to help acclimate many foreign scholars into the American cultue and in the heart of Philly. As the RA, I help organize workshops, city tours, larg scale cultural holidays, and more! </p>
                             <ul class="list-inline item-details">
                                 <li>Date:
                                     <strong><a>August, 2016 - Present</a>
@@ -1033,7 +1041,7 @@
                             <h2>Dragon Hacks, Philladelphia</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/portfolioDragonHacks2.png" class="img-responsive img-centered" alt="" style="height:50%;width:50%;">
-                            <p>Detailed Description Coming Soon!</p>
+                            <p>Using IBM Watson's image recognition model, we made an app that can scan images of skin deformaties and give a prediction as to what abnormality it is. This multiplatform application, can help diagnose early stage diseases and prevent further damage to the human body. </p>
                             <ul class="list-inline item-details">
                                 <li>Project:
                                     <strong><a href="http://devpost.com/software/skin-on-me"; target="_blank";>Devpost</a>
@@ -1072,7 +1080,7 @@
                             <h2>PennApps</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/portfolioPennApps.png" class="img-responsive img-centered" alt="">
-                            <p>Detailed Description Coming Soon!</p>
+                            <p>PennApps in 2015 was the first hackathon I attended in my life! At this hackathon I worked with 3 other fellow Drexel studetns, to create a stock price prediction application using the Black Scholes model.</p>
                             <ul class="list-inline item-details">
                                 <li>Project:
                                     <strong><a href="https://devpost.com/software/black-scholes-options-pricing-calculator"; target="_blank";>Devpost</a>
@@ -1112,9 +1120,8 @@
                             <h2>Optimum Tennis: Lessons</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/portfolioTennis.png" class="img-responsive img-centered" alt="">
-                            <p>Detailed Description Coming Soon!</p>
+                            <p>As a professional tennis instuctor for over 5 years, I have built a strong skill set and clientele in the state of New Jersey. In this business I have utilized exceptional communication and administration skills to maintain and satisfy over 65 clients. During instruction, I consistently develop new, customized drills and then implement them into my instruction immediately. </p>
                             <ul class="list-inline item-details">
-    
                                 <li>Date:
                                     <strong><a>2013 - Present</a>
                                     </strong>
@@ -1131,9 +1138,13 @@
             </div>
         </div>
     </div>
+
     
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>  
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
