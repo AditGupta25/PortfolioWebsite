@@ -1,9 +1,5 @@
 var tooltipTimeout;
 
-$("#timedPopup").hover(function()
-                    {tooltipTimeout = setTimeout(showTooltip, 2000);}, 
-                    hideTooltip);
-
 function showTooltip()
     {
     var tooltip = $("<div id='tooltip' class='tooltip'>This picture was taken while hiking on Mount Titlis, Switzerland</div>");
@@ -15,3 +11,19 @@ function hideTooltip()
     clearTimeout(tooltipTimeout);
     $("#tooltip").fadeOut().remove();
     }
+
+$(document).ready(function() {
+
+
+	/* Apply fancybox to multiple items */
+	
+	$(".iframe").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+});
+              

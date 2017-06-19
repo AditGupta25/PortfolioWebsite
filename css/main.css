@@ -10,3 +10,14 @@
     background-color: rgb(130, 150, 200);
     padding: 5px;
     }
+
+.chatbotGif
+{
+    width: 105px; height: auto; margin-top: -15px; margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .chatbotGif {
+       margin-left: 80px;
+    }
+}

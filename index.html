@@ -19,6 +19,9 @@
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    
+    <!--popup-->
+    <link  href="js/dist/jquery.fancybox.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,10 +37,14 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d" class="navbar-brand" style="color:black;">Click to Chat</a>
+                <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d"><img class="chatbotGif" src="/img/chatbot.gif"></a>
+                <br>
+                <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d" class="navbar-brand" style="margin-top: -45px;"> <p style="color:black;">With my AI Assistant</p> </a>
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="color:black;">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">A G</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,26 +54,33 @@
                         <a href="#page-top"></a>
                     </li>
                      <li class="page-scroll">
-                        <a href="#page-top">Home</a>
+                        <a href="#page-top" style="color:black;" >Home</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about" style="color:black;">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio" style="color:black;">Portfolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="../docs/AditResume10112016.pdf" target="_blank">Résumé</a>
+                        <a href="../docs/AditResume10112016.pdf" target="_blank" style="color:black;">Résumé</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" style="color:black;">Contact</a>
                     </li>
+<!--
                     <li>
                         <a href="/resources.html">Resources</a>
                     </li>
                     <li >
                         <a href="/blog.html">Blog</a>
                     </li>
+-->
+<!--
+                    <br>
+                    <p></p>
+                    <p>ttestsetsdfsdfsfsdfsdfsd</p>
+-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -79,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-circle" id="timedPopup" src="img/profile.jpg" style="height:300px; width:300px;" alt="">
+                    <img class="img-responsive img-circle" src="img/profile.jpg" style="height:300px; width:300px;" alt="">
                     <div class="intro-text">
                         <span class="name">Adit Gupta</span>
                         <hr class="star-light">
@@ -104,7 +118,7 @@
                 <div class="container" style="margin-top: 30px">
                     <div class="row text-center">
         
-                    <p>My name is Adit Gupta, and I am a student of the College of Computing and Informatics at Drexel university, studying Software Engineering. I have been recognized as an Undergraduate Research Leader, Star Scholar, and Microsoft Student Partner. As a head organizer of Philly Codefest, I have helped organize an event with over 400 talented computer scientists from all over the country. My hobbies include developing innovative ideas with new technologies, going to hackathons,and teaching and playing tennis at a competitive level. I love learning and giving back to my community. I have an insatiable hunger to improve humanity and reduce suffering using technology. My goal is to use my communication skills, entrepreneurial acumen, and technical experience to create a company to further advance humanity.</p>
+                    <p>My name is Adit Gupta, and I am a student of the College of Computing and Informatics at Drexel university, studying Software Engineering. I have been recognized as an Undergraduate Research Leader, Star Scholar, and Microsoft Student Partner. As a head organizer of Philly Codefest, I have helped organize an event with over 400 talented computer scientists from all over the country. My hobbies include developing innovative ideas with new technologies, conducting academic research, and teaching and playing tennis at a competitive level. I have an insatiable hunger for self improvement and becomming life long learning.</p>
      
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
@@ -502,15 +516,14 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p><br>Voorhees, NJ 08043</p>
+                    
                     </div>
                     <div class="footer-col col-md-4">
-                       
+                       <p>"Don't live life dreaming about what could be; Be persistent and <i>work</i> your dream to a living reality"</p>
+                        <h5><br> - Adit Gupta</h5>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Mission</h3>
-                        <p>Advancing Humanity. One keystroke at a time.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -1176,6 +1189,13 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    
+    
+    <!-- popup -->
+    <script src="js/dist/jquery.fancybox.min.js"></script>
+
+
+    
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
