@@ -37,10 +37,13 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d" class="navbar-brand" style="color:black;">Click to Chat</a>
+                
                 <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d"><img class="chatbotGif" src="/img/chatbot.gif"></a>
+                
+<!--
+                <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d" class="navbar-brand" style="color:black; margin-top: -10px;"><font size="3.5">Click to Chat</font></a>
                 <br>
-                <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d" class="navbar-brand" style="margin-top: -45px;"> <p style="color:black;">With my AI Assistant</p> </a>
+-->
                 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="color:black;">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
@@ -62,25 +65,29 @@
                     <li class="page-scroll">
                         <a href="#portfolio" style="color:black;">Portfolio</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="../docs/AditResume2018.pdf" target="_blank" style="color:black;">Résumé</a>
-                    </li>
+                    
                     <li class="page-scroll">
                         <a href="#contact" style="color:black;">Contact</a>
                     </li>
-<!--
-                    <li>
-                        <a href="/resources.html">Resources</a>
+                    
+                    <li class="page-scroll">
+                        <a href="../docs/AditResume2018.pdf" target="_blank" style="color:black;">Résumé</a>
                     </li>
-                    <li >
-                        <a href="/blog.html">Blog</a>
+                    
+                    <li class="page-scroll">
+                        <a href="#portfolioModalCoursework" class="portfolio-link" data-toggle="modal" style="color:black;">Coursework</a>
                     </li>
--->
-<!--
-                    <br>
-                    <p></p>
-                    <p>ttestsetsdfsdfsfsdfsdfsd</p>
--->
+                    
+                    <li class="page-scroll">
+                        <a href="" style="color:black;">Resources</a>
+                    </li>
+
+                    <li class="page-scroll">
+                        <a href="https://medium.com/@guptaadit25" target="_blank" style="color:black;">Blog</a>
+                    </li>
+                    
+<!--                    <a data-fancybox data-type="iframe" data-src="https://console.api.ai/api-client/demo/embedded/2bc4ea07-4439-4c6a-b874-50aec3664e4d"><img class="chatbotGif" src="/img/chatbot.gif"></a>-->
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -1161,6 +1168,35 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--This modal is for the coursework in the top nav-bar-->
+    <div class="portfolio-modal modal fade" id="portfolioModalCoursework" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Undergraduate Coursework</h2>
+                            <hr class="star-primary">
+                            <p>Please see below, a list of undergraduate coursework from Drexel University.</p>
+                            <p>As additional classes are taken, they will be added to this list.</p>
+                            <iframe src="/coursework.html" width="800" height="400"></iframe>
+                            <br>
+                            <p>*NOTE*: Many additional irrelevant classes have not been included in this list</p>
+                            <p>For Official Reasons: If a complete transcript is needed, please see the <b>contact</b> section to see how to proceed</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
